@@ -1,0 +1,40 @@
+.dialog {
+  background-color: #fff; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); 
+  border: 1px solid #ccc; 
+  padding: 20px; 
+}
+
+.dialog label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold; 
+}
+
+.dialog input[type="text"] {
+  width: 100%; 
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+}
+
+.dialog .footer button {
+  background-color: #007bff; 
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 10px 20px;
+  text-transform: uppercase; 
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.dialog .footer button:last-child {
+  background-color: #6c757d; 
+}
+
+.dialog .footer button:disabled {
+  background-color: #ccc; 
+}

@@ -1,0 +1,31 @@
+Executable can be built using make
+
+Running refresh.sh will make and run the app on localhost:8080
+
+***Be careful when using the delete button as it will actually delete the file from your system***
+
+Media accessed by the app is stored in 'Media' folder
+
+Media_Backup contains copies of the files for when the app deletes them from the 'Media' folder when testing the delete button
+
+Getting Setup:
+
+Requires a linux environment such as WSL or Ubuntu.
+
+Download Wt-4.10.1: https://github.com/emweb/wt/archive/refs/tags/4.10.1.tar.gz
+
+Wt requirements:
+
+    Compiler: Any compiler with sufficient support for C++14, like GCC 5.1 or higher, or Clang 3.3 or higher.
+    CMake 3.1 or higher
+    C++ boost library 1.50.0 or higher
+
+Build and Install Wt: https://www.webtoolkit.eu/wt/doc/reference/html/InstallationUnix.html#build
+
+In '/etc/wt/wt_config.xml', change <max-request-size> to 1280000.
+
+Extract the entire application with resources folders
+
+From the src directory, run ./refresh to build and run the project.
+
+You should then be able to access the project on http://localhost:8080/ in your browser.
